@@ -1,0 +1,20 @@
+2019-12-20 06:34:32.528355: I tensorflow/core/platform/cpu_feature_guard.cc:142] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2019-12-20 06:34:32.535005: I tensorflow/core/platform/profile_utils/cpu_utils.cc:94] CPU Frequency: 2593745000 Hz
+2019-12-20 06:34:32.535925: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5cbedd0 executing computations on platform Host. Devices:
+2019-12-20 06:34:32.535962: I tensorflow/compiler/xla/service/service.cc:175]   StreamExecutor device (0): Host, Default Version
+/etc/host.conf: line 4: bad command `nospoof on'
+/root/.pyenv/versions/3.6.8/lib/python3.6/site-packages/pandas/io/sql.py:1144: UserWarning: The provided table name 'STAP_NPS_COMMENTS_ALL' is not found exactly as such in the database after writing the table, possibly due to case sensitivity issues. Consider using lower case table names.
+  warnings.warn(msg, UserWarning)
+    comments_date   siteid   ...    vc_category  comm_wl
+100    2018-12-03  1078632   ...            NaN       []
+101    2018-12-03  1078632   ...            NaN       []
+102    2018-12-03  1079462   ...      PROMOTERS       []
+103    2018-12-03  1081047   ...            NaN       []
+104    2018-12-03  1081217   ...      PROMOTERS       []
+105    2018-12-03  1081727   ...      PROMOTERS       []
+106    2018-12-03  1081727   ...            NaN       []
+107    2018-12-03  1081727   ...            NaN       []
+108    2018-12-03  1081727   ...            NaN  ['die']
+109    2018-12-03  1081727   ...            NaN       []
+
+[10 rows x 16 columns]
